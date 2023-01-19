@@ -1,4 +1,5 @@
 // SECTION # 3
+// FUNCTIONAL TYPE
 
 // Functions in Kotlin can be used as data types
 // We can define a variable with a functional type.
@@ -17,7 +18,7 @@ var greetingFunction: () -> Unit = { // Lambda
 var greetingFunctionWithArgumentsAndReturnType: (String) -> String = {
     // this implicit "it" parameter , or "it" variable,
     // it is implicitly given name for the parameter passed to the function
-   "Hello $it!" // special property of Lambda - there is no return keyword
+    "Hello $it!" // special property of Lambda - there is no return keyword
     // This is a special property of lambdas. Within a lambda you don't have to
     // explicitly return the value using the return key word.
     // Whatever the last value is within the lambda will be implicitly return.

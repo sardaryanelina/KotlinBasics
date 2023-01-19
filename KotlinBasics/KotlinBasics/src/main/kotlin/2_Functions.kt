@@ -1,6 +1,7 @@
 import java.util.*
 
 // SECTION # 2
+// FUNCTIONS
 
 // In Kotlin, we can write and use functions without any kind of enclosing class or struct
 // Access modifiers are : public, private, internal

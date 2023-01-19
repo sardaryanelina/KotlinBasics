@@ -1,4 +1,4 @@
-// SECTION # 1 
+// SECTION # 1
 // DATA TYPES
 
 fun main(args: Array<String>) {
